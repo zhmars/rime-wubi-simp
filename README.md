@@ -2,8 +2,7 @@
 
 根据 [rime/rime-wubi#8](https://github.com/rime/rime-wubi/issues/8) 提出的解决方案。
 
-RIME 五笔的默认词库包含很多繁体字，如果我的理解没错，当前对简体字处理是在输出
-时转换，这样会导致输入 `tvfh`，出现 `笔（ttfn）`的尴尬。
+Rime 五笔的默认词库包含很多繁体字，如果我的理解没错，当前对简体字处理是在输出时转换，这样会导致输入 `tvfh`，出现 `笔（ttfn）`的尴尬。
 
 这里根据现行最新标准[《通用规范汉字表》](http://www.gov.cn/zwgk/2013-08/19/content_2469793.htm) 对原词库 [wubi86.dict.yaml](https://github.com/rime/rime-wubi/blob/master/wubi86.dict.yaml) 作处理，删除所有不在汉字表的字符，生成 `wubi86_simp.dict.yaml`。
 
