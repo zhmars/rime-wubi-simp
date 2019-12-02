@@ -1,0 +1,362 @@
+# Rime dictionary: wubi86_simp_ext
+# encoding: utf-8
+
+---
+name: wubi86_simp_ext
+version: '191202'
+sort: original
+columns:
+  - text
+  - code
+encoder:
+  exclude_patterns:
+    - '^z.*$'
+  rules:
+    - length_equal: 2
+      formula: "AaAbBaBb"
+    - length_equal: 3
+      formula: "AaBaCaCb"
+    - length_in_range: [4, 10]
+      formula: "AaBaCaZa"
+...
+
+# GB2312 中未被《通用规范汉字表》（2013）收录汉字，共 125 个，根据需要启用
+# 磺硷矽丌丨丿乇丶匚刂冂亻佧氽勹亠冫冖讠诶谘卩阝阢廴凵厶垅坶堀艹茇菸廾扌拚挢捱
+# 揲揞揎摺擗甙咭哜囗囝後彡犭猓猸夂饣馀庀忄丬氵沲渖宀辶彐弪屮嬲纟缍缋缏巛楱榀榘
+# 軎攴搿攵肜朊膣膪臁欷飚熳灬礻憝肀泶砩砦礤钅钶钸镙镟疒痖窆衤疋虍蚵螓蟓蠛箝簦舡
+# 舨糸麴醣跫謦鲶鳆鳋髟齄
+诶	yct
+诶	yctd
+坶	fxg
+坶	fxgu
+堀	fnbm
+挢	rtdj
+
+# 新造字
+囧	lqm
+囧	lqmv
+囧	lwmv
+
+# 日常
+上行	hhtf
+上集	hhwy
+下集	ghwy
+下体	ghws
+下坡	ghfh
+下垂	ghtg
+下策	ghtg
+下陷	ghbq
+不要	gisv
+世族	anyt
+丢人	tfww
+严查	gosj
+严词	goyn
+丰产	dhut
+丰裕	dhpu
+临期	jtad
+主婚	ygvq
+乡谊	xtyp
+书札	nnsn
+买房	nuyn
+乳钵	ebqs
+了案	bnpv
+亢进	ymfj
+交款	uqff
+京郊	yiuq
+亲事	usgk
+亲朋	usee
+人人	wwww
+仙桃	wmsi
+代入	waty
+代培	wafu
+仪仗	wywd
+仪容	wypw
+仲秋	wkto
+份内	wwmw
+份外	wwqh
+伊人	wvww
+伏法	wdif
+优渥	wdin
+优等	wdtf
+优选	wdtf
+伟绩	wfxg
+传艺	wfan
+传译	wfyc
+传述	wfsy
+伪军	wypl
+余烬	wton
+作美	wtug
+佳人	wfww
+侄子	wgbb
+侍从	wfww
+侍女	wfvv
+供品	wakk
+依从	wyww
+侧室	wmpg
+便函	wgbi
+便车	wglg
+俊逸	wcqk
+保荐	wkad
+信徒	wytf
+俯仰	wywq
+倒坍	wgfm
+倒把	wgrc
+倒换	wgrq
+倒是	wgjg
+倒班	wggy
+倚翠	wdny
+倚靠	wdtf
+偎抱	wlrq
+偏科	wytu
+偏食	wywy
+做东	wdai
+停歇	wyjq
+偿命	wiwg
+催谷	wmww
+傻事	wtgk
+僧侣	wuwk
+僧院	wubp
+僵尸	wgnn
+先人	tfww
+先妣	tfvx
+入彀	tyfp
+入殓	tygq
+全歼	wggq
+公亩	wcyl
+公公	wcwc
+公厕	wcdm
+公堂	wcip
+兵卒	rgyw
+养兵	udrg
+养地	udfb
+养气	udrn
+养颜	udut
+兼收	uvnh
+内人	mwww
+冒渎	jhif
+
+冰淇淋	uiis
+不像话	gwyt
+万能胶	dceu
+万用表	dege
+
+充要条件	ystw
+
+# 专有名词
+
+冬笋	tutv
+冬菜	tuae
+冬青	tuge
+
+农学	peip
+
+关羽	udnn
+
+俄文	wtyy
+俄语	wtyg
+
+## 化学
+
+丁烷	sgop
+乙烷	nnop
+三聚氰胺	dbre
+
+## 互联网
+
+雅黑	ahlf
+宅男	ptll
+美剧	ugnd
+妹纸	vfxq
+阔落	skqi
+官网	pnmq
+比卡丘	xhrg
+
+微信	tmwy
+微博	tmfg
+京东	yiai
+知乎	tdtu
+天猫	gdqt
+一淘	giqr
+支付宝	fwpg
+
+## 计算机
+
+闭包	ufqn
+
+# 成语
+一五一十	gggf
+一仍旧贯	gwhx
+一元复始	gftv
+一刻千金	gytq
+一叶蔽目	gkah
+一场春梦	gfds
+一场虚惊	gfhn
+一声不吭	gfgk
+一声不响	gfgk
+一声令下	gfwg
+一夫当关	gfiu
+一张一弛	gxgx
+一泻千里	gitj
+一点一滴	ghgi
+一石两鸟	gdgq
+一笑而过	gtdf
+一笔抹杀	gtrq
+一脉相通	gesc
+一腔热血	gert
+一表人才	ggwf
+一路领先	gkwt
+一隅三反	gbdr
+一马平川	gcgk
+一马当先	gcit
+七荤八素	aawg
+七长八短	atwt
+万丈深渊	ddii
+万夫莫开	dfag
+万箭穿心	dtpn
+万般无奈	dtfd
+万里长城	djtf
+万马奔腾	dcde
+三思而行	dldt
+三生有幸	dtdf
+上下一致	hggg
+上天无路	hgfk
+上梁不正	higg
+上知天文	htgy
+下知地理	gtfg
+下不为例	ggyw
+不为所动	gyrf
+不值一提	gwgr
+不分彼此	gwth
+不分胜负	gweq
+不可动摇	gsfr
+不可否认	gsgy
+不可多得	gsqt
+不可胜计	gsey
+不吝指教	gyrf
+不吝赐教	gymf
+不在少数	gdio
+不堪造就	gfty
+不实之处	gppt
+不实之词	gppy
+不容忽视	gpqp
+不忘初心	gypn
+不拘小节	gria
+不方不圆	gygl
+不无道理	gfug
+不理不睬	gggh
+不甘落后	gaar
+不生不灭	gtgg
+不男不女	glgv
+不白之冤	grpp
+不相为谋	gsyy
+不省人事	giwg
+不知其可	gtas
+不知所以	gtrn
+不见不散	gmga
+不败之地	gmpf
+不足之处	gkpt
+不足挂齿	gkrh
+不辞劳苦	gtaa
+不远万里	gfdj
+不远千里	gftj
+不避艰险	gncb
+不顾一切	gdga
+与此同时	ghmj
+且战且退	ehev
+世世代代	aaww
+世事难料	agco
+世代相传	awsw
+丢魂落魄	tfar
+两小无猜	gifq
+两极分化	gsww
+两眼枯涩	ghsi
+严严实实	ggpp
+为人所知	ywrt
+为人正直	ywgf
+为数不多	yogq
+为时不远	yjgf
+为期不远	yagf
+主观臆断	yceo
+乘兴而来	tidg
+乱作一团	twgl
+了然于胸	bqge
+事不宜迟	ggpn
+于事无补	ggfp
+于心何忍	gnwv
+五彩缤纷	gexx
+五方杂处	gyvt
+亲如一家	uvgp
+人中龙凤	wkdm
+人为财死	wymg
+人人有责	wwdg
+人心惶惶	wnnn
+人心所向	wnrt
+人情世故	wnad
+人来人往	wgwt
+人生几何	wtmw
+人生在世	wtda
+人生无常	wtfi
+从中渔利	wkit
+从古至今	wdgw
+从头再来	wugg
+从头开始	wugv
+从容应对	wpyc
+从此以后	whnr
+仔仔细细	wwxx
+付诸实施	wypy
+令人不安	wwgp
+令人作呕	wwwk
+令人叫绝	wwkx
+令人深思	wwil
+令人神往	wwpt
+以人废言	nwyy
+以史为鉴	nkyj
+以汤沃雪	niif
+以眼还眼	nhgh
+以资鼓励	nufd
+以飨观众	nxcw
+仰天大笑	wgdt
+仰面朝天	wdfg
+伐毛洗髓	wtim
+休闲娱乐	wuvq
+会心一笑	wngt
+伯仲之间	wwpu
+似水柔情	wicn
+体弱多病	wxqu
+体态姣美	wdvu
+体态婀娜	wdvv
+佛口蛇心	wkjn
+作壁上观	wnhc
+你追我赶	wwtf
+佯装不知	wugt
+供大于求	wdgf
+依法追究	wiwp
+侧目而视	whdp
+便宜从事	wpwg
+信心百倍	wndw
+俯首就擒	wuyr
+俾众周知	wwmt
+俾有所悟	wdrn
+借花献佛	wafw
+倦怠无力	wcfl
+倦意顿消	wugi
+倨傲无礼	wwfp
+偃旗息鼓	wytf
+偏听偏信	wkww
+偷香窃玉	wtpg
+先人后己	twrn
+先天不足	tggk
+光前裕后	iupr
+光宗耀祖	ipip
+入土为安	tfyp
+全军覆灭	wpsg
+全国各地	wltf
+公诸于世	wyga
+公诸于众	wygw
+兴味盎然	ikmq
+兴趣盎然	ifmq
+其实不然	apgq
+其实难副	apcg
+其甘如荠	aava
+冁然而笑	uqdt
+
